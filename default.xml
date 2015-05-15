@@ -8,6 +8,7 @@
              sync-j="2" />
 
     <project name="aaki" />
-    <project name="aaki-config" />
-    <project name="aaki-framework" />
+    <project name="aaki-config" path="config" />
+    <project name="aaki-framework" path="framework" />
+
 </manifest>
