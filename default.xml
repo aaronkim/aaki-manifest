@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="origin"
-             fetch="ssh://git@github.com/aaronkim/" />
+    <remote  name="aaki"
+             fetch=".." />
 
     <default revision="master"
-             remote="origin"
+             remote="aaki"
              sync-j="2" />
 
     <project name="aaki" />
