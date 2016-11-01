@@ -8,7 +8,9 @@
              sync-j="4" />
 
     <project name="aaki-app-android" path="app">
-      
+      <linkfile src="root.build.gradle" dest="../build.gradle" />
+      <linkfile src="root.gradle.properties" dest="../gradle.properties" />
+      <linkfile src="root.settings.gradle" dest="../settings.gradle" />
     </project>
     <project name="aaki-component-data-android" path="component-data" />
     <project name="aaki-component-node-android" path="component-node" />
