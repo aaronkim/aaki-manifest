@@ -3,7 +3,7 @@
     <remote  name="aaki"
              fetch=".." />
 
-    <default revision="develop"
+    <default revision="android-develop"
              remote="aaki"
              sync-j="4" />
 
