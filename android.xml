@@ -3,7 +3,7 @@
     <remote  name="aaki"
              fetch=".." />
 
-    <default revision="master"
+    <default revision="develop"
              remote="aaki"
              sync-j="4" />
 
