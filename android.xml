@@ -14,5 +14,6 @@
     </project>
     <project name="aaki-component-data-android" path="component-data" />
     <project name="aaki-component-node-android" path="component-node" />
+    <project name="aaki-component-log-java" path="component-log" />
 
 </manifest>
