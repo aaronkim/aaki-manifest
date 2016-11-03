@@ -3,12 +3,12 @@
     <remote  name="aaki"
              fetch=".." />
 
-    <default revision="master"
+    <default revision=""
              remote="aaki"
-             sync-j="2" />
+             sync-j="4" />
 
-    <project name="aaki" />
-    <project name="aaki-config" path="config" />
-    <project name="aaki-framework" path="framework" />
+    <project name="aaki-setenv">
+      <linkfile name="setenv/setenv.in" dest="aaki-setenv">
+    </project>
 
 </manifest>
