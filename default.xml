@@ -3,12 +3,13 @@
     <remote  name="aaki"
              fetch=".." />
 
-    <default revision=""
+    <default revision="develop"
              remote="aaki"
              sync-j="4" />
 
-    <project name="aaki-setenv">
-      <linkfile name="setenv/setenv.in" dest="aaki-setenv">
+    <project name="aaki-setenv" path="setenv">
+      <linkfile src="aaki" dest="../aaki">
+      <linkfile src="setenv.in" dest="../aaki-setenv.in">
     </project>
 
 </manifest>
