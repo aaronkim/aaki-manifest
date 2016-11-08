@@ -11,5 +11,7 @@
       <linkfile src="aaki.in" dest="../aaki"/>
       <linkfile src="setenv.in" dest="../aaki-setenv"/>
     </project>
+    <project name="aaki-manifest" path="manifest">
+    </project>
 
 </manifest>
