@@ -11,6 +11,6 @@
       <linkfile src="aaki.in" dest="../aaki"/>
       <linkfile src="setenv.in" dest="../setenv-aaki"/>
     </project>
-    <project name="aaki-manifest" path="manifest/aaki"/>
-    <project name="aaki-bcdm-manifest" path="manifest/bcdm"/>
+    <project name="aaki-manifest" path="manifests/aaki"/>
+    <project name="aaki-bcdm-manifest" path="manifests/bcdm"/>
 </manifest>
